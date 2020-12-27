@@ -8,15 +8,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ihrm-salarys" />
-        <module name="userservice1" />
         <module name="ihrm-company" />
         <module name="ihrm-api" />
+        <module name="ihrm-attendance" />
         <module name="userweb" />
         <module name="ihrm-employee" />
         <module name="userapi" />
         <module name="ihrm-system" />
         <module name="userservice2" />
-        <module name="ihrm-attendance" />
+        <module name="userservice1" />
         <module name="ihrm-audit" />
         <module name="ihrm-social-securitys" />
       </profile>

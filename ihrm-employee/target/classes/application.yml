@@ -1,0 +1,18 @@
+server:
+  port: 9004
+spring:
+  application:
+    name: ihrm-employee #指定服务名
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/ihrm?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT
+    username: root
+    password: 330124
+  jpa:
+    database: MySQL
+    show-sql: true
+    open-in-view: true
+  redis:
+    host: 116.62.26.142
+    port: 6379
+
